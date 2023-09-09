@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B71A1B82AA089EB0066C046 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71A1B62AA089EB0066C046 /* Profile+CoreDataClass.swift */; };
+		8B71A1BD2AA095B30066C046 /* AddKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71A1BC2AA095B30066C046 /* AddKeyViewController.swift */; };
+		8B71A1BF2AA095C10066C046 /* AddKeyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71A1BE2AA095C10066C046 /* AddKeyPresenter.swift */; };
+		8B71A1C12AA1D3D10066C046 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71A1C02AA1D3D10066C046 /* CoreDataManager.swift */; };
+		8B71A1C62AA70D720066C046 /* MainAggregateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71A1C52AA70D720066C046 /* MainAggregateView.swift */; };
+		8B71A1C82AA70DB20066C046 /* ButtonAggregateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B71A1C72AA70DB20066C046 /* ButtonAggregateView.swift */; };
+		8BC652CA2AAAFA6500B5571A /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC652C92AAAFA6500B5571A /* EditViewController.swift */; };
+		8BCDBFC82A8CC192008297D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFC72A8CC192008297D1 /* AppDelegate.swift */; };
+		8BCDBFCA2A8CC192008297D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFC92A8CC192008297D1 /* SceneDelegate.swift */; };
+		8BCDBFCC2A8CC192008297D1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFCB2A8CC192008297D1 /* HomeViewController.swift */; };
+		8BCDBFD22A8CC192008297D1 /* KeyStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFD02A8CC192008297D1 /* KeyStorage.xcdatamodeld */; };
+		8BCDBFD42A8CC193008297D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCDBFD32A8CC193008297D1 /* Assets.xcassets */; };
+		8BCDBFD72A8CC193008297D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCDBFD52A8CC193008297D1 /* LaunchScreen.storyboard */; };
+		8BCDBFE12A8CC23B008297D1 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFE02A8CC23B008297D1 /* HomePresenter.swift */; };
+		8BCDBFE32A8CC24E008297D1 /* MassiveCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFE22A8CC24E008297D1 /* MassiveCoordinator.swift */; };
+		8BCDBFEE2A8CD009008297D1 /* HomeViewButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFED2A8CD009008297D1 /* HomeViewButtonCell.swift */; };
+		8BCDBFF22A8D1513008297D1 /* LazyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFF12A8D1513008297D1 /* LazyButton.swift */; };
+		8BCDBFFB2A90FB60008297D1 /* KeyStorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFFA2A90FB60008297D1 /* KeyStorageViewController.swift */; };
+		8BCDBFFE2A90FDE7008297D1 /* KeyStoragePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFFD2A90FDE7008297D1 /* KeyStoragePresenter.swift */; };
+		8BCDC0002A94A3E2008297D1 /* KeyStorageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDBFFF2A94A3E2008297D1 /* KeyStorageCell.swift */; };
+		8BCDC0022A9F53AF008297D1 /* LazyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDC0012A9F53AF008297D1 /* LazyLabel.swift */; };
+		8BCDC0042A9F5881008297D1 /* LazyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCDC0032A9F5881008297D1 /* LazyTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B71A1B62AA089EB0066C046 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8B71A1BC2AA095B30066C046 /* AddKeyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKeyViewController.swift; sourceTree = "<group>"; };
+		8B71A1BE2AA095C10066C046 /* AddKeyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKeyPresenter.swift; sourceTree = "<group>"; };
+		8B71A1C02AA1D3D10066C046 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		8B71A1C52AA70D720066C046 /* MainAggregateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAggregateView.swift; sourceTree = "<group>"; };
+		8B71A1C72AA70DB20066C046 /* ButtonAggregateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAggregateView.swift; sourceTree = "<group>"; };
+		8BC652C92AAAFA6500B5571A /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		8BCDBFC42A8CC192008297D1 /* KeyStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCDBFC72A8CC192008297D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BCDBFC92A8CC192008297D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BCDBFCB2A8CC192008297D1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8BCDBFD12A8CC192008297D1 /* KeyStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyStorage.xcdatamodel; sourceTree = "<group>"; };
+		8BCDBFD32A8CC193008297D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BCDBFD62A8CC193008297D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BCDBFD82A8CC193008297D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCDBFE02A8CC23B008297D1 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		8BCDBFE22A8CC24E008297D1 /* MassiveCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiveCoordinator.swift; sourceTree = "<group>"; };
+		8BCDBFED2A8CD009008297D1 /* HomeViewButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewButtonCell.swift; sourceTree = "<group>"; };
+		8BCDBFF12A8D1513008297D1 /* LazyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyButton.swift; sourceTree = "<group>"; };
+		8BCDBFFA2A90FB60008297D1 /* KeyStorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStorageViewController.swift; sourceTree = "<group>"; };
+		8BCDBFFD2A90FDE7008297D1 /* KeyStoragePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStoragePresenter.swift; sourceTree = "<group>"; };
+		8BCDBFFF2A94A3E2008297D1 /* KeyStorageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStorageCell.swift; sourceTree = "<group>"; };
+		8BCDC0012A9F53AF008297D1 /* LazyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLabel.swift; sourceTree = "<group>"; };
+		8BCDC0032A9F5881008297D1 /* LazyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BCDBFC12A8CC192008297D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B71A1BA2AA095970066C046 /* AddKeyFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8B71A1BB2AA095A10066C046 /* View */,
+				8B71A1BE2AA095C10066C046 /* AddKeyPresenter.swift */,
+			);
+			path = AddKeyFlow;
+			sourceTree = "<group>";
+		};
+		8B71A1BB2AA095A10066C046 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B71A1BC2AA095B30066C046 /* AddKeyViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B71A1C42AA70A150066C046 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFFF2A94A3E2008297D1 /* KeyStorageCell.swift */,
+				8B71A1C52AA70D720066C046 /* MainAggregateView.swift */,
+				8B71A1C72AA70DB20066C046 /* ButtonAggregateView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8BCDBFBB2A8CC192008297D1 = {
+			isa = PBXGroup;
+			children = (
+				8B71A1B62AA089EB0066C046 /* Profile+CoreDataClass.swift */,
+				8BCDBFC62A8CC192008297D1 /* KeyStorage */,
+				8BCDBFC52A8CC192008297D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BCDBFC52A8CC192008297D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFC42A8CC192008297D1 /* KeyStorage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BCDBFC62A8CC192008297D1 /* KeyStorage */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFF02A8D14F1008297D1 /* Helper */,
+				8BCDBFE82A8CC48E008297D1 /* Core */,
+				8BCDBFDE2A8CC20B008297D1 /* Flow */,
+				8BCDBFD52A8CC193008297D1 /* LaunchScreen.storyboard */,
+				8BCDBFD02A8CC192008297D1 /* KeyStorage.xcdatamodeld */,
+				8BCDBFD82A8CC193008297D1 /* Info.plist */,
+				8BCDBFD32A8CC193008297D1 /* Assets.xcassets */,
+			);
+			path = KeyStorage;
+			sourceTree = "<group>";
+		};
+		8BCDBFDE2A8CC20B008297D1 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				8B71A1BA2AA095970066C046 /* AddKeyFlow */,
+				8BCDBFF52A90E3FA008297D1 /* KeyStorageFlow */,
+				8BCDBFDF2A8CC213008297D1 /* HomeFlow */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		8BCDBFDF2A8CC213008297D1 /* HomeFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFEC2A8CCFEC008297D1 /* View */,
+				8BCDBFE02A8CC23B008297D1 /* HomePresenter.swift */,
+			);
+			path = HomeFlow;
+			sourceTree = "<group>";
+		};
+		8BCDBFE82A8CC48E008297D1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFC72A8CC192008297D1 /* AppDelegate.swift */,
+				8BCDBFC92A8CC192008297D1 /* SceneDelegate.swift */,
+				8BCDBFE22A8CC24E008297D1 /* MassiveCoordinator.swift */,
+				8B71A1C02AA1D3D10066C046 /* CoreDataManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8BCDBFEC2A8CCFEC008297D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFCB2A8CC192008297D1 /* HomeViewController.swift */,
+				8BCDBFED2A8CD009008297D1 /* HomeViewButtonCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BCDBFF02A8D14F1008297D1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFF12A8D1513008297D1 /* LazyButton.swift */,
+				8BCDC0012A9F53AF008297D1 /* LazyLabel.swift */,
+				8BCDC0032A9F5881008297D1 /* LazyTextField.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8BCDBFF52A90E3FA008297D1 /* KeyStorageFlow */ = {
+			isa = PBXGroup;
+			children = (
+				8BCDBFFC2A90FCF6008297D1 /* View */,
+				8BCDBFFD2A90FDE7008297D1 /* KeyStoragePresenter.swift */,
+			);
+			path = KeyStorageFlow;
+			sourceTree = "<group>";
+		};
+		8BCDBFFC2A90FCF6008297D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B71A1C42AA70A150066C046 /* Cell */,
+				8BCDBFFA2A90FB60008297D1 /* KeyStorageViewController.swift */,
+				8BC652C92AAAFA6500B5571A /* EditViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BCDBFC32A8CC192008297D1 /* KeyStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCDBFDB2A8CC193008297D1 /* Build configuration list for PBXNativeTarget "KeyStorage" */;
+			buildPhases = (
+				8BCDBFC02A8CC192008297D1 /* Sources */,
+				8BCDBFC12A8CC192008297D1 /* Frameworks */,
+				8BCDBFC22A8CC192008297D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyStorage;
+			productName = KeyStorage;
+			productReference = 8BCDBFC42A8CC192008297D1 /* KeyStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BCDBFBC2A8CC192008297D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8BCDBFC32A8CC192008297D1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BCDBFBF2A8CC192008297D1 /* Build configuration list for PBXProject "KeyStorage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BCDBFBB2A8CC192008297D1;
+			productRefGroup = 8BCDBFC52A8CC192008297D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BCDBFC32A8CC192008297D1 /* KeyStorage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BCDBFC22A8CC192008297D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCDBFD72A8CC193008297D1 /* LaunchScreen.storyboard in Resources */,
+				8BCDBFD42A8CC193008297D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BCDBFC02A8CC192008297D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCDC0022A9F53AF008297D1 /* LazyLabel.swift in Sources */,
+				8B71A1B82AA089EB0066C046 /* Profile+CoreDataClass.swift in Sources */,
+				8BCDBFCC2A8CC192008297D1 /* HomeViewController.swift in Sources */,
+				8BCDBFF22A8D1513008297D1 /* LazyButton.swift in Sources */,
+				8B71A1C12AA1D3D10066C046 /* CoreDataManager.swift in Sources */,
+				8BCDC0042A9F5881008297D1 /* LazyTextField.swift in Sources */,
+				8BC652CA2AAAFA6500B5571A /* EditViewController.swift in Sources */,
+				8BCDBFFE2A90FDE7008297D1 /* KeyStoragePresenter.swift in Sources */,
+				8B71A1BF2AA095C10066C046 /* AddKeyPresenter.swift in Sources */,
+				8B71A1BD2AA095B30066C046 /* AddKeyViewController.swift in Sources */,
+				8BCDBFEE2A8CD009008297D1 /* HomeViewButtonCell.swift in Sources */,
+				8BCDBFD22A8CC192008297D1 /* KeyStorage.xcdatamodeld in Sources */,
+				8BCDC0002A94A3E2008297D1 /* KeyStorageCell.swift in Sources */,
+				8BCDBFC82A8CC192008297D1 /* AppDelegate.swift in Sources */,
+				8B71A1C82AA70DB20066C046 /* ButtonAggregateView.swift in Sources */,
+				8B71A1C62AA70D720066C046 /* MainAggregateView.swift in Sources */,
+				8BCDBFE12A8CC23B008297D1 /* HomePresenter.swift in Sources */,
+				8BCDBFCA2A8CC192008297D1 /* SceneDelegate.swift in Sources */,
+				8BCDBFFB2A90FB60008297D1 /* KeyStorageViewController.swift in Sources */,
+				8BCDBFE32A8CC24E008297D1 /* MassiveCoordinator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BCDBFD52A8CC193008297D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCDBFD62A8CC193008297D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BCDBFD92A8CC193008297D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BCDBFDA2A8CC193008297D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BCDBFDC2A8CC193008297D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG7XS5GA5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AureumVulpes.Inc.KeyStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BCDBFDD2A8CC193008297D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PG7XS5GA5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KeyStorage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AureumVulpes.Inc.KeyStorage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BCDBFBF2A8CC192008297D1 /* Build configuration list for PBXProject "KeyStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCDBFD92A8CC193008297D1 /* Debug */,
+				8BCDBFDA2A8CC193008297D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCDBFDB2A8CC193008297D1 /* Build configuration list for PBXNativeTarget "KeyStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCDBFDC2A8CC193008297D1 /* Debug */,
+				8BCDBFDD2A8CC193008297D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BCDBFD02A8CC192008297D1 /* KeyStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BCDBFD12A8CC192008297D1 /* KeyStorage.xcdatamodel */,
+			);
+			currentVersion = 8BCDBFD12A8CC192008297D1 /* KeyStorage.xcdatamodel */;
+			path = KeyStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BCDBFBC2A8CC192008297D1 /* Project object */;
+}
